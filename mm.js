@@ -36,3 +36,11 @@ let msgObj = {
 function generateRandomNum(num) {
     return Math.floor(Math.random() * num);
 };
+
+//array to push random message into
+const msgResult = [];
+
+//for in loop for msgObj
+for (const key in msgObj) {
+
+}

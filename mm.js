@@ -1,5 +1,5 @@
 //object with properties for randommmessage generator
-const msgObj = {
+let msgObj = {
      jokes: [
         'What do you call a pony with a cough? A little horse.',
         'What do you call a magic dog? A labracadabrador.',
@@ -32,7 +32,7 @@ const msgObj = {
 
 }
 
-
-// function randomMsg() {
-
-// };
+//generates random number between 0 and specified arg
+function generateRandomNum(num) {
+    return Math.floor(Math.random() * num);
+};

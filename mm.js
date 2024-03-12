@@ -11,4 +11,8 @@ let jokes = [
     "What is an astronaut’s favorite part on a computer? The space bar.",
     'Why did the yogurt go to the art exhibition? Because it was cultured.',
     'What do you call an apology written in dots and dashes? Re-Morse code.'
-]
+];
+
+const msg = 'This joke was ';
+
+let msgEnd = ['funny', 'hilarious', 'lame', 'horrible', 'totes rad', 'tubuler', 'double-yoo tee eff!', 'alright', 'meh', 'completely and utterly a disater and it should be ashmed of itself'];

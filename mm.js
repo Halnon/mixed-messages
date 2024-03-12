@@ -39,8 +39,3 @@ function generateRandomNum(num) {
 
 //array to push random message into
 const msgResult = [];
-
-//for in loop for msgObj
-for (const key in msgObj) {
-
-}

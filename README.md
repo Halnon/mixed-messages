@@ -1,4 +1,4 @@
-### Mixed Messages
+# Mixed Messages
 
 ## Project aim
 -----------------

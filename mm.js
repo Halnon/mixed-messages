@@ -15,7 +15,7 @@ let msgObj = {
         'What do you call an apology written in dots and dashes? Re-Morse code.'
     ],
 
-    msg: 'This joke was ',
+    msg: ['This joke was '],
 
     msgEnd: [
         'funny', 
@@ -37,5 +37,10 @@ function generateRandomNum(num) {
     return Math.floor(Math.random() * num);
 };
 
+console.log(msgObj.jokes.length); //index length of jokes array
+console.log(msgObj.msg.length); //index length of msg array
+console.log(msgObj.msgEnd.length); //index length of msgEnd array
+
 //array to push random message into
 const msgResult = [];
+

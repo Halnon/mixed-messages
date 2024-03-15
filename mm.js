@@ -36,11 +36,13 @@ const msgObj = {
         return randomJk, this.jokes[randomJk];
     },
 
+    //generates random index number of mesgEnd array and returns random element
     randMsg() {
         const randomMsg = Math.floor(Math.random() * this.mesgEnd.length);
         return randomMsg, this.mesgEnd[randomMsg];
     },
 
+    //get method to return randJoke and randMsg within template literal
     get fullMsg() {
         return `${this.randJoke()}\n ${this.msg} ${this.randMsg()}`;
     }

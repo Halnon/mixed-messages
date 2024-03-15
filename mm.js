@@ -41,12 +41,10 @@ const msgObj = {
         return randomMsg, this.mesgEnd[randomMsg];
     },
 
-    fullMsg() {
+    get fullMsg() {
         return `${this.randJoke()}\n ${this.msg} ${this.randMsg()}`;
     }
 }
-
-
 
 // console.log(msgObj.jokes.length); //index length of jokes array
 // console.log(msgObj.msg); //logs msg array
@@ -54,4 +52,4 @@ const msgObj = {
 
 // console.log(msgObj.randJoke())
 // console.log(msgObj.randMsg())
-console.log(msgObj.fullMsg())
+console.log(msgObj.fullMsg)

@@ -39,6 +39,10 @@ const msgObj = {
     randMsg() {
         const randomMsg = Math.floor(Math.random() * this.mesgEnd.length);
         return randomMsg, this.mesgEnd[randomMsg];
+    },
+
+    fullMsg() {
+        return `${this.randJoke()}\n ${this.msg} ${this.randMsg()}`;
     }
 }
 
@@ -48,8 +52,6 @@ const msgObj = {
 // console.log(msgObj.msg); //logs msg array
 // console.log(msgObj.mesgEnd.length); //index length of msgEnd array
 
-//array to push random message into
-// const msgResult = [];
-// console.log(msgObj.jokes[0])
-console.log(msgObj.randJoke())
-console.log(msgObj.randMsg())
+// console.log(msgObj.randJoke())
+// console.log(msgObj.randMsg())
+console.log(msgObj.fullMsg())
